@@ -19,7 +19,7 @@ async def upgrade(bot,update):
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/inferno_scorpion")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/mokshb658"),
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/imgaurav1214"),
         			InlineKeyboardButton("Other Methods",url = "https://t.me/inferno_scorpion")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
@@ -41,6 +41,6 @@ async def upgradecm(bot,message):
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/inferno_scorpion")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/mokshb658"),
+        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/imgaurav1214"),
         			InlineKeyboardButton("Other Methods",url = "https://t.me/inferno_scorpion")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
